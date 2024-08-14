@@ -1,0 +1,9 @@
+thead{
+    position: sticky;
+    top: 0;
+    background-color: #87ceeb;
+
+}
+th, td{
+    border:solid 1px #333;
+}
