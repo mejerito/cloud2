@@ -33,7 +33,7 @@ require('./w3c.php');
     //file_put_contents('sitemaps.xml', $sitemap);
 
 ?>
-<h1>Cloud 2.0</h1>
+<h1>MEJ validator 1.0</h1>
 <form action="" method="post">
     <input type="text" name="url" id="url" placeholder="Digite a URL do projeto"> 
     <input type="submit" value="Validar" name="submit">
@@ -83,17 +83,17 @@ require('./w3c.php');
 
                 // Remova duplicados
                 $uniqueLinks = array_unique($linkArray);
-                echo "<h2>Validações Manuais</h2>";
-                echo "<h3>Validações da home</h3>";
-                echo "<input type='checkbox' name='h1'> O H1 da pagina é formado pelo nome da empresa + segmento?<br>
-<input type='checkbox' name='banner'> Os banners linkam para as MPIs?<br>
-<input type='checkbox' name='caroussel'> A Home contem ao menos um Caroussel?<br>
-<input type='checkbox' name='caroussel'> Existe Self Redirect?<br>
-<input type='checkbox' name='caroussel'> Botão Link (formulário)?<br>
-<input type='checkbox' name='caroussel'> Botão Link (WhatsApp)?<br>
-
-<input type='checkbox' name='caroussel'> A home contém produtos em destaque?";
-echo '<h3></h3>';
+                //echo "<h2>Validações Manuais</h2>";
+                //echo "<h3>Validações da home</h3>";
+                //echo "<input type='checkbox' name='h1'> O H1 da pagina é formado pelo nome da empresa + segmento?<br>
+//<input type='checkbox' name='banner'> Os banners linkam para as MPIs?<br>
+//<input type='checkbox' name='caroussel'> A Home contem ao menos um Caroussel?<br>
+//<input type='checkbox' name='caroussel'> Existe Self Redirect?<br>
+//<input type='checkbox' name='caroussel'> Botão Link (formulário)?<br>
+//<input type='checkbox' name='caroussel'> Botão Link (WhatsApp)?<br>
+//
+//<input type='checkbox' name='caroussel'> A home contém produtos em destaque?";
+//echo '<h3></h3>';
                 echo "<h2>Validações Automáticas</h2>";
                 // Exiba os links únicos
                 //echo "<h3>Links encontrados:</h3>";
